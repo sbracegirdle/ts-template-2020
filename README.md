@@ -1,4 +1,17 @@
-# Node template
+# Typescript template
+
+This project contains baseline configuration files for a project that uses:
+
+- Node (execution)
+- Typescript (type checking)
+- Eslint (linting)
+- Prettier (formatting)
+- Mocha (and chai and sinon)
+
+Optionally, there are scripts for adding:
+
+- AWS CDK (add-cdk.sh)
+- Webpack (add-webpack.sh)
 
 Usage;
 
@@ -8,8 +21,15 @@ cd my-project
 ./init.sh
 ```
 
+Why run `init.sh`?  This way you install dependencies at the latest version rather than whatever version the template pins in package.json. This is also why package.json is empty.
 
-The text below is a template for your README:
+
+
+
+
+## README TEMPLATE
+
+NOTE: The text below is an optional template for your README:
 
 > What is it and why (expand into extra sub-sections with architectural overview etc if necessary)
 
