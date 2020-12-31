@@ -3,7 +3,10 @@
   "version": "0.0.1",
   "description": "",
   "scripts": {
-    "test": "mocha"
+    "test": "run-s test:*",
+    "test:unit": "mocha",
+    "test:lint": "eslint src/ test/",
+    "test:typecheck": "tsc --noEmit"
   },
   "author": "Simon Bracegirdle",
   "license": "UNLICENSED",

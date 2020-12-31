@@ -8,6 +8,7 @@ mkdir -p test/unit
 rm -rf .git/
 
 npm i --save-dev --save-exact \
+  npm-run-all \
   @types/node \
   typescript ts-node \
   mocha @types/mocha \
