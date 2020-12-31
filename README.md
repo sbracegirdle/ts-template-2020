@@ -3,7 +3,7 @@
 Usage;
 
 ```sh
-git clone blah my-project
+git clone git@github.com:sbracegirdle/ts-template-2020.git my-project
 ./init.sh
 ```
 
