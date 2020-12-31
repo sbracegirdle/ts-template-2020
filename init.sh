@@ -11,7 +11,7 @@ npm i --save-dev --save-exact \
   @types/node \
   typescript ts-node \
   mocha @types/mocha \
-  chai chai-as-promised @types/chai \
+  chai chai-as-promised @types/chai @types/chai-as-promised \
   sinon @types/sinon \
   prettier \
   eslint eslint-plugin-import @typescript-eslint/parser @typescript-eslint/eslint-plugin
