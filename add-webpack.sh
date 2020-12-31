@@ -2,7 +2,7 @@
 
 set -e
 
-npm install --save-dev --save-exact webpack webpack-cli ts-loader zip-webpack-plugin
+npm install --save-dev --save-exact webpack @types/webpack webpack-cli ts-loader zip-webpack-plugin @types/zip-webpack-plugin
 
 cat > webpack.config.ts <<- EOM
 import path from 'path'
