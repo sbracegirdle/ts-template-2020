@@ -50,6 +50,3 @@ const config: Configuration = {
 export default config
 EOM
 
-
-npm i --save-dev --save-exact aws-cdk @aws-cdk/assert
-npm i --save --save-exact @aws-cdk/core
