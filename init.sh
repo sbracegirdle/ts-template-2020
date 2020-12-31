@@ -2,6 +2,9 @@
 
 set -e
 
+mkdir -p src
+mkdir -p test/unit
+
 rm -rf .git/
 
 npm i --save-dev --save-exact \
