@@ -4,6 +4,7 @@ Usage;
 
 ```sh
 git clone git@github.com:sbracegirdle/ts-template-2020.git my-project
+cd my-project
 ./init.sh
 ```
 
